@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pestoSauce" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#678C40;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#4F6F2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3C5420;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="50%" r="65%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#F7F7F7;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C7C7C7;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#FDFBF7" />
+  
+  <!-- Plate -->
+  <circle cx="400" cy="320" r="250" fill="url(#plate)" />
+  
+  <!-- Pesto Sauce -->
+  <ellipse cx="400" cy="320" rx="180" ry="160" fill="url(#pestoSauce)" />
+  
+  <!-- Pasta -->
+  <g fill="#FFF6D6">
+    <path d="M300,260 C320,290 350,290 370,260" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M320,280 C340,310 370,310 390,280" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M340,300 C360,330 390,330 410,300" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M360,320 C380,350 410,350 430,320" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M380,340 C400,370 430,370 450,340" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M400,320 C420,350 450,350 470,320" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M420,300 C440,330 470,330 490,300" stroke="#FFF6D6" stroke-width="10" fill="none" />
+    <path d="M440,280 C460,310 490,310 510,280" stroke="#FFF6D6" stroke-width="10" fill="none" />
+  </g>
+  
+  <!-- Pine Nuts -->
+  <g fill="#F0E6D2">
+    <ellipse cx="350" cy="270" rx="8" ry="5" transform="rotate(30, 350, 270)" />
+    <ellipse cx="390" cy="290" rx="8" ry="5" transform="rotate(-20, 390, 290)" />
+    <ellipse cx="430" cy="310" rx="8" ry="5" transform="rotate(15, 430, 310)" />
+    <ellipse cx="410" cy="280" rx="8" ry="5" transform="rotate(-10, 410, 280)" />
+    <ellipse cx="370" cy="320" rx="8" ry="5" transform="rotate(25, 370, 320)" />
+    <ellipse cx="450" cy="290" rx="8" ry="5" transform="rotate(-30, 450, 290)" />
+  </g>
+  
+  <!-- Chili Oil Drizzle -->
+  <g stroke="#CF4B3A" stroke-width="3" stroke-linecap="round" opacity="0.7" fill="none">
+    <path d="M330,250 C340,255 350,260 340,270" />
+    <path d="M430,250 C420,260 410,270 420,280" />
+    <path d="M370,240 C375,250 380,260 375,270" />
+    <path d="M460,280 C450,290 440,300 450,310" />
+    <path d="M400,300 C405,310 410,320 405,330" />
+  </g>
+  
+  <!-- Basil Leaves -->
+  <g fill="#2D5A27">
+    <ellipse cx="320" cy="250" rx="10" ry="6" transform="rotate(40, 320, 250)" />
+    <ellipse cx="380" cy="230" rx="12" ry="7" transform="rotate(-20, 380, 230)" />
+    <ellipse cx="450" cy="260" rx="11" ry="6" transform="rotate(15, 450, 260)" />
+    <ellipse cx="410" cy="350" rx="10" ry="6" transform="rotate(-25, 410, 350)" />
+    <ellipse cx="350" cy="320" rx="9" ry="5" transform="rotate(10, 350, 320)" />
+  </g>
+</svg>

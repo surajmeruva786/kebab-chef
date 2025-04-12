@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RisottoRaj - Italian-Indian Fusion Restaurant</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <h1><a href="#home">Risotto<span>Raj</span></a></h1>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-btn">Contact Us</a>
+      </nav>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <ul>
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#menu" class="mobile-link">Menu</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="mobile-btn">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="badge">A CULINARY ADVENTURE</div>
+      <h1>Where <span>Italy</span> meets <span>India</span></h1>
+      <div class="separator">
+        <div class="line"></div>
+        <i class="fas fa-utensils"></i>
+        <div class="line"></div>
+      </div>
+      <p>Experience our unique fusion cuisine in an elegant,<br>nature-inspired atmosphere</p>
+      <div class="hero-btns">
+        <a href="#menu" class="primary-btn">Explore Our Menu</a>
+        <a href="#contact" class="secondary-btn">Contact Us</a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#featured">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Featured Dishes Section -->
+  <section id="featured" class="featured">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">SIGNATURE DISHES</div>
+        <h2>Our Culinary Masterpieces</h2>
+        <div class="separator">
+          <div class="line"></div>
+          <i class="fas fa-star"></i>
+          <div class="line"></div>
+        </div>
+        <p>Discover our most beloved fusion creations that perfectly blend the rich spices of Indian cuisine with the comforting elegance of Italian classics.</p>
+      </div>
+      
+      <div class="featured-dishes">
+        <!-- Dish 1 -->
+        <div class="dish-card">
+          <div class="dish-img">
+            <span class="dish-tag">Chef's Special</span>
+            <img src="images/saffron-risotto.svg" alt="Saffron Risotto">
+            <span class="dish-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+          <div class="dish-content">
+            <div class="dish-title">
+              <h3>Saffron Risotto with Curry Leaf</h3>
+              <span class="price">$18.95</span>
+            </div>
+            <p>Our signature risotto infused with saffron and aromatic curry leaves, topped with ghee-roasted pine nuts.</p>
+            <a href="#menu" class="dish-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <!-- Dish 2 -->
+        <div class="dish-card">
+          <div class="dish-img">
+            <span class="dish-tag">Popular</span>
+            <img src="images/tikka-gnocchi.svg" alt="Tikka Masala Gnocchi">
+            <span class="dish-rating"><i class="fas fa-star"></i> 4.8</span>
+          </div>
+          <div class="dish-content">
+            <div class="dish-title">
+              <h3>Tikka Masala Gnocchi</h3>
+              <span class="price">$16.95</span>
+            </div>
+            <p>Handmade potato gnocchi served in a creamy tikka masala sauce with fresh basil and fenugreek leaves.</p>
+            <a href="#menu" class="dish-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <!-- Dish 3 -->
+        <div class="dish-card">
+          <div class="dish-img">
+            <span class="dish-tag">Dessert</span>
+            <img src="images/curry-fettuccine.svg" alt="Curry Fettuccine">
+            <span class="dish-rating"><i class="fas fa-star"></i> 4.7</span>
+          </div>
+          <div class="dish-content">
+            <div class="dish-title">
+              <h3>Cardamom Panna Cotta</h3>
+              <span class="price">$9.95</span>
+            </div>
+            <p>Silky Italian panna cotta delicately flavored with cardamom, served with saffron-rose syrup and pistachios.</p>
+            <a href="#menu" class="dish-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="center-btn">
+        <a href="#menu" class="primary-btn">Explore Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-img">
+          <div class="img-border top-left"></div>
+          <img src="images/restaurant-interior.svg" alt="Restaurant interior">
+          <div class="img-border bottom-right"></div>
+        </div>
+        
+        <div class="about-content">
+          <h2>Our Story</h2>
+          <p>Founded in 2019, RisottoRaj was born from a passion for bringing together the aromatic spices of Indian cuisine with the comforting dishes of Italian tradition.</p>
+          <p>Our chefs combine traditional cooking methods from both cultures, creating unique flavors that celebrate the rich heritage of these beloved cuisines.</p>
+          <p>Set in a casual, nature-inspired atmosphere, our restaurant features abundant greenery, natural materials, and an inviting ambiance that makes every meal feel like a special occasion.</p>
+          
+          <div class="features">
+            <div class="feature">
+              <i class="fas fa-award"></i>
+              <h3>Award-Winning</h3>
+              <p>City's Best Fusion 2022</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-home"></i>
+              <h3>Farm-to-Table</h3>
+              <p>Local, Sustainable Ingredients</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-users"></i>
+              <h3>Family-Owned</h3>
+              <p>Passion in Every Dish</p>
+            </div>
+          </div>
+          
+          <a href="#contact" class="primary-btn">Learn More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">FUSION FLAVORS</div>
+        <h2>Our Curated Menu</h2>
+        <p>Explore our carefully crafted fusion of Italian and Indian cuisines, featuring traditional favorites and innovative culinary creations.</p>
+      </div>
+      
+      <div class="menu-tabs">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="italian">Italian Inspired</button>
+          <button class="tab-btn" data-tab="indian">Indian Fusion</button>
+          <button class="tab-btn" data-tab="signature">Signature Rice</button>
+        </div>
+        
+        <div class="menu-content">
+          <!-- Italian Tab Content -->
+          <div class="tab-content active" id="italian-content">
+            <div class="menu-items">
+              <!-- Single Menu Item -->
+              <div class="menu-item">
+                <div class="menu-item-img">
+                  <img src="images/pesto-pasta.svg" alt="Pesto Pasta">
+                </div>
+                <div class="menu-item-content">
+                  <div class="menu-item-header">
+                    <h3>Pesto Pasta with Chili Oil</h3>
+                    <span class="price">$15.95</span>
+                  </div>
+                  <p>Fresh basil pesto pasta with a drizzle of house-made Indian-spiced chili oil and toasted pine nuts.</p>
+                  <div class="tags">
+                    <span class="tag vegetarian"><i class="fas fa-leaf"></i> Vegetarian</span>
+                    <span class="tag spicy"><i class="fas fa-fire"></i> Mild Spice</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- More Italian menu items would go here -->
+            </div>
+          </div>
+          
+          <!-- Indian Tab Content -->
+          <div class="tab-content" id="indian-content">
+            <div class="menu-items">
+              <!-- Single Menu Item -->
+              <div class="menu-item">
+                <div class="menu-item-img">
+                  <img src="images/butter-chicken-pasta.svg" alt="Butter Chicken Pasta">
+                </div>
+                <div class="menu-item-content">
+                  <div class="menu-item-header">
+                    <h3>Butter Chicken Pasta</h3>
+                    <span class="price">$16.95</span>
+                  </div>
+                  <p>Fettuccine pasta tossed in our creamy butter chicken sauce, topped with fresh cilantro and grated Parmesan.</p>
+                  <div class="tags">
+                    <span class="tag spicy"><i class="fas fa-fire"></i> Medium Spice</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- More Indian menu items would go here -->
+            </div>
+          </div>
+          
+          <!-- Signature Tab Content -->
+          <div class="tab-content" id="signature-content">
+            <div class="menu-items">
+              <!-- Single Menu Item -->
+              <div class="menu-item">
+                <div class="menu-item-img">
+                  <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Saffron Risotto">
+                </div>
+                <div class="menu-item-content">
+                  <div class="menu-item-header">
+                    <h3>Saffron Risotto with Curry Leaf</h3>
+                    <span class="price">$18.95</span>
+                  </div>
+                  <p>Our signature risotto infused with saffron and aromatic curry leaves, topped with ghee-roasted pine nuts.</p>
+                  <div class="tags">
+                    <span class="tag vegetarian"><i class="fas fa-leaf"></i> Vegetarian</span>
+                    <span class="tag gluten-free"><i class="fas fa-wheat-awn"></i> Gluten-Free</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- More Signature menu items would go here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="center-btn">
+        <a href="#contact" class="primary-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">OUR SPACE</div>
+        <h2>Experience the Ambiance</h2>
+        <div class="separator">
+          <div class="line"></div>
+          <i class="fas fa-camera"></i>
+          <div class="line"></div>
+        </div>
+        <p>Step into our nature-inspired space, where Italian elegance meets Indian warmth, creating a unique dining atmosphere surrounded by lush greenery.</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-main">
+          <div class="gallery-item featured">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Restaurant interior with plants">
+            <div class="overlay">
+              <p>Restaurant interior with plants</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Outdoor dining area">
+            <div class="overlay">
+              <p>Outdoor dining area</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Chef preparing food">
+            <div class="overlay">
+              <p>Chef preparing food</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1566897819059-62ca3fc2ee0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Table setting with candles">
+            <div class="overlay">
+              <p>Table setting with candles</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Signature fusion dish">
+            <div class="overlay">
+              <p>Signature fusion dish</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-slider">
+          <div class="slider-container">
+            <div class="slider-track">
+              <div class="slider-item">
+                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Herb garden">
+                <div class="overlay">
+                  <p>Herb garden</p>
+                </div>
+              </div>
+              <div class="slider-item">
+                <img src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Restaurant bar">
+                <div class="overlay">
+                  <p>Restaurant bar</p>
+                </div>
+              </div>
+              <div class="slider-item">
+                <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Dessert presentation">
+                <div class="overlay">
+                  <p>Dessert presentation</p>
+                </div>
+              </div>
+              <div class="slider-item more-photos">
+                <div class="more-content">
+                  <i class="fas fa-images"></i>
+                  <p>More Photos Coming Soon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Guests Say</h2>
+        <p>Don't just take our word for it. Here's what our customers have to say about their dining experience.</p>
+      </div>
+      
+      <div class="testimonial-slider">
+        <div class="testimonial-wrapper">
+          <!-- Testimonial 1 -->
+          <div class="testimonial active">
+            <div class="testimonial-icon">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"The Saffron Risotto with Curry Leaf is unlike anything I've ever tasted. A perfect blend of Italian technique with Indian flavors. The ambiance is so peaceful with all the plants!"</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sophia R.">
+              <div>
+                <h4>Sophia R.</h4>
+                <p>Local Food Blogger</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="testimonial">
+            <div class="testimonial-icon">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"As someone who grew up in Italy with an Indian spouse, this restaurant perfectly captures both of our comfort foods in one place. The Tikka Masala Gnocchi is a must-try!"</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Marco T.">
+              <div>
+                <h4>Marco T.</h4>
+                <p>Regular Customer</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial">
+            <div class="testimonial-icon">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">"The atmosphere is so calming with all the greenery. I love coming here for lunch meetings - the food is unique and the service is always friendly. The Cardamom Panna Cotta is divine!"</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Aisha J.">
+              <div>
+                <h4>Aisha J.</h4>
+                <p>Business Executive</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Feel free to reach out with questions, feedback, or just to say hello.</p>
+      </div>
+      
+      <div class="contact-card">
+        <h3>Contact Information</h3>
+        
+        <div class="contact-info">
+          <div class="info-column">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>123 Culinary Avenue</p>
+                <p>Fusion District</p>
+                <p>Metropolis, MP 12345</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>info@risottoraj.com</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="info-column">
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Hours</h4>
+                <div class="hours-grid">
+                  <p>Monday - Thursday:</p>
+                  <p>11:00 AM - 9:00 PM</p>
+                  <p>Friday - Saturday:</p>
+                  <p>11:00 AM - 10:00 PM</p>
+                  <p>Sunday:</p>
+                  <p>12:00 PM - 8:00 PM</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <i class="fas fa-share-alt"></i>
+              <div>
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Map Section -->
+  <div id="map" class="map">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00594368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f20ea6079a2321!2s123%20Park%20Row%2C%20New%20York%2C%20NY%2010038%2C%20USA!5e0!3m2!1sen!2sus!4v1617292233920!5m2!1sen!2sus" 
+      width="100%" 
+      height="400" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top-curve"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>RisottoRaj</h3>
+          <p>Experience the unique fusion of Italian and Indian cuisines in an elegant, nature-inspired atmosphere that celebrates culinary creativity.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>123 Culinary Avenue, Fusion District, Metropolis, MP 12345</span>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>(555) 123-4567</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>info@risottoraj.com</span>
+            </li>
+            <li>
+              <i class="fas fa-clock"></i>
+              <div>
+                <p>Mon-Thu: 11am - 9pm</p>
+                <p>Fri-Sat: 11am - 10pm</p>
+                <p>Sun: 12pm - 8pm</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Newsletter section removed as requested -->
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> RisottoRaj. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>

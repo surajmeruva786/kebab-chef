@@ -1,0 +1,1 @@
+{ "name": "risottoraj-website", "version": "1.0.0", "description": "RisottoRaj Restaurant Website", "main": "index.js", "scripts": { "start": "node index.js", "dev": "node index.js" }, "keywords": ["restaurant", "website"], "author": "", "license": "ISC" }

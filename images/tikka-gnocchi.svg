@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sauce" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#E06153;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#CF4B3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A33629;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="50%" r="65%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#F7F7F7;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C7C7C7;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#FDFBF7" />
+  
+  <!-- Plate -->
+  <circle cx="400" cy="320" r="250" fill="url(#plate)" />
+  
+  <!-- Tikka Sauce -->
+  <ellipse cx="400" cy="320" rx="180" ry="160" fill="url(#sauce)" />
+  
+  <!-- Gnocchi -->
+  <g fill="#F0E6D2">
+    <ellipse cx="320" cy="280" rx="15" ry="10" />
+    <ellipse cx="360" cy="250" rx="15" ry="10" />
+    <ellipse cx="400" cy="260" rx="15" ry="10" />
+    <ellipse cx="440" cy="280" rx="15" ry="10" />
+    <ellipse cx="480" cy="270" rx="15" ry="10" />
+    <ellipse cx="340" cy="320" rx="15" ry="10" />
+    <ellipse cx="380" cy="330" rx="15" ry="10" />
+    <ellipse cx="420" cy="340" rx="15" ry="10" />
+    <ellipse cx="460" cy="320" rx="15" ry="10" />
+    <ellipse cx="350" cy="370" rx="15" ry="10" />
+    <ellipse cx="390" cy="380" rx="15" ry="10" />
+    <ellipse cx="430" cy="370" rx="15" ry="10" />
+  </g>
+  
+  <!-- Cream Swirl -->
+  <path d="M320,280 C350,300 380,280 400,300 C420,320 450,300 480,320" 
+        stroke="#F5F1E6" stroke-width="8" fill="none" />
+  
+  <!-- Garnish -->
+  <g fill="#2D5A27">
+    <ellipse cx="320" cy="240" rx="4" ry="10" transform="rotate(30, 320, 240)" />
+    <ellipse cx="480" cy="240" rx="4" ry="10" transform="rotate(-20, 480, 240)" />
+    <ellipse cx="400" cy="230" rx="4" ry="8" />
+  </g>
+  
+  <!-- Spices -->
+  <g fill="#FFDC73" opacity="0.7">
+    <circle cx="360" cy="270" r="3" />
+    <circle cx="420" cy="280" r="3" />
+    <circle cx="380" cy="320" r="2" />
+    <circle cx="440" cy="330" r="2" />
+    <circle cx="370" cy="350" r="2" />
+    <circle cx="430" cy="340" r="2" />
+  </g>
+</svg>

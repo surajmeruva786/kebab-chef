@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sauce" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#E6B960;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#D9912A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A36A18;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="50%" r="65%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#F7F7F7;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C7C7C7;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#FDFBF7" />
+  
+  <!-- Plate -->
+  <circle cx="400" cy="320" r="250" fill="url(#plate)" />
+  
+  <!-- Curry Sauce -->
+  <ellipse cx="400" cy="320" rx="180" ry="160" fill="url(#sauce)" />
+  
+  <!-- Pasta Strands -->
+  <g stroke="#FFF6D6" stroke-width="5" fill="none">
+    <path d="M300,280 C350,250 450,250 500,280" />
+    <path d="M320,300 C370,270 430,270 480,300" />
+    <path d="M340,320 C380,290 420,290 460,320" />
+    <path d="M330,340 C370,310 430,310 470,340" />
+    <path d="M320,360 C360,330 440,330 480,360" />
+    <path d="M310,380 C350,350 450,350 490,380" />
+  </g>
+  
+  <!-- Garnish -->
+  <g fill="#2D5A27">
+    <ellipse cx="350" cy="260" rx="5" ry="10" transform="rotate(30, 350, 260)" />
+    <ellipse cx="450" cy="260" rx="5" ry="10" transform="rotate(-30, 450, 260)" />
+    <ellipse cx="400" cy="240" rx="4" ry="8" transform="rotate(10, 400, 240)" />
+  </g>
+  
+  <!-- Spices -->
+  <g fill="#CF4B3A" opacity="0.7">
+    <circle cx="370" cy="290" r="3" />
+    <circle cx="430" cy="280" r="4" />
+    <circle cx="390" cy="330" r="3" />
+    <circle cx="410" cy="350" r="3" />
+    <circle cx="350" cy="320" r="2" />
+    <circle cx="450" cy="320" r="2" />
+  </g>
+</svg>
